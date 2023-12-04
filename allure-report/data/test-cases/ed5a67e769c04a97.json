@@ -1,0 +1,113 @@
+{
+  "uid" : "ed5a67e769c04a97",
+  "name" : "Scenario 0311. From Announcements - Add new Announcement form validation",
+  "fullName" : "TestCases.AnnouncementValidation.AddAnn",
+  "historyId" : "26bbc90b02b3b4c68611407bdceff655",
+  "time" : {
+    "start" : 1701687608859,
+    "stop" : 1701687640317,
+    "duration" : 31458
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701687602600,
+      "stop" : 1701687608635,
+      "duration" : 6035
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a9260b5a48a3cfcc",
+      "name" : "Announcement Formation",
+      "source" : "a9260b5a48a3cfcc.png",
+      "type" : "image/png",
+      "size" : 55642
+    }, {
+      "uid" : "24135c1a59795558",
+      "name" : "Announcement created",
+      "source" : "24135c1a59795558.png",
+      "type" : "image/png",
+      "size" : 80314
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701687640455,
+      "stop" : 1701687641028,
+      "duration" : 573
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.AnnouncementValidation"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.AnnouncementValidation"
+  }, {
+    "name" : "testMethod",
+    "value" : "AddAnn"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.AnnouncementValidation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "11992@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed5a67e769c04a97.json",
+  "parameterValues" : [ ]
+}

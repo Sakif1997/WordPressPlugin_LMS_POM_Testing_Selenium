@@ -1,0 +1,195 @@
+{
+  "90205d5e40e169a9e4b7b7ef0f082398" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0b18873bd9c0e3d",
+      "status" : "broken",
+      "statusDetails" : "Timed out waiting for driver server to stop.\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [b6f7efcefa7b33874dc5c28f89133ff1, quit {}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57549}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57549/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b6f7efcefa7b33874dc5c28f89133ff1",
+      "time" : {
+        "start" : 1701640508719,
+        "stop" : 1701640508722,
+        "duration" : 3
+      }
+    } ]
+  },
+  "90fb87f86aed13e01d61ef21f0748868" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94203b7d836f51c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701699431745,
+        "stop" : 1701699469288,
+        "duration" : 37543
+      }
+    } ]
+  },
+  "31eaf41a19e0507e1c6e2d8e9af162bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "668e0724e310358b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701699248192,
+        "stop" : 1701699292380,
+        "duration" : 44188
+      }
+    } ]
+  },
+  "e1c4335a4ca04e4c7d54337ce37ca749" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d203949420e8748",
+      "status" : "broken",
+      "statusDetails" : "Timed out waiting for driver server to stop.\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7ab3169f75f379c4e409fb0c0844239c, quit {}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65433}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65433/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7ab3169f75f379c4e409fb0c0844239c",
+      "time" : {
+        "start" : 1701511573708,
+        "stop" : 1701511573710,
+        "duration" : 2
+      }
+    } ]
+  },
+  "7f9ae109fa5e3d26db0d8bbfed337478" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c87ebd60f71d740",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701699194215,
+        "stop" : 1701699247985,
+        "duration" : 53770
+      }
+    } ]
+  },
+  "525c393741e0db2c3aa5679e5e16b459" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4e5ec5ce79deac5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701169236964,
+        "stop" : 1701169258127,
+        "duration" : 21163
+      }
+    } ]
+  },
+  "260154ff85a2a2542bac2805f5efabe6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b1486a9080afb37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701699292410,
+        "stop" : 1701699342417,
+        "duration" : 50007
+      }
+    } ]
+  },
+  "26bbc90b02b3b4c68611407bdceff655" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25d7b4c43d5f957d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701699395090,
+        "stop" : 1701699431702,
+        "duration" : 36612
+      }
+    } ]
+  },
+  "4052a0e9d7f921272cece2303580a233" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c64c83c311b591e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701699342478,
+        "stop" : 1701699395073,
+        "duration" : 52595
+      }
+    } ]
+  },
+  "7272d3a612efa415d704a7ec0a88d3a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4af433ab4afaaa2a",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [c7baef3a84ff0670ed0de0c5d452a3b1, maximizeCurrentWindow {}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57476}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57476/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c7baef3a84ff0670ed0de0c5d452a3b1",
+      "time" : {
+        "start" : 1701688295904,
+        "stop" : 1701688295913,
+        "duration" : 9
+      }
+    } ]
+  }
+}

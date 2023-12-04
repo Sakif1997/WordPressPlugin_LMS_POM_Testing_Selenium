@@ -1,0 +1,113 @@
+{
+  "uid" : "d788920b2c721a80",
+  "name" : "Scenario 02:\r\nNavigate to the Academy LMS menu -> Add ones Mode.\r\n5.From Add-ons All -> On the free tools(Quizes, Multi Instructors,Migration ToolWebhooks) click to active those tools.\r\n6.Validate Active tools lists\r\n7. Validate Deactivate tools list\r\n8. Navigate Active tools from Menu",
+  "fullName" : "TestCases.CustomAddNewCourse.NewCourse",
+  "historyId" : "260154ff85a2a2542bac2805f5efabe6",
+  "time" : {
+    "start" : 1701601768899,
+    "stop" : 1701601826823,
+    "duration" : 57924
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701601758814,
+      "stop" : 1701601768739,
+      "duration" : 9925
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bc1940634308b685",
+      "name" : "COurse Creation",
+      "source" : "bc1940634308b685.png",
+      "type" : "image/png",
+      "size" : 73248
+    }, {
+      "uid" : "4f046993604e2913",
+      "name" : "COurse Creation",
+      "source" : "4f046993604e2913.png",
+      "type" : "image/png",
+      "size" : 79845
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701601827249,
+      "stop" : 1701601829357,
+      "duration" : 2108
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.CustomAddNewCourse"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.CustomAddNewCourse"
+  }, {
+    "name" : "testMethod",
+    "value" : "NewCourse"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.CustomAddNewCourse"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "4192@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d788920b2c721a80.json",
+  "parameterValues" : [ ]
+}

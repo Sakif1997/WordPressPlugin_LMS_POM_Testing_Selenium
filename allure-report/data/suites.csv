@@ -1,0 +1,23 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 28 17:00:36 BDT 2023","Tue Nov 28 17:00:58 BDT 2023","21163","Default suite","Default test","TestCases.WordPressLoginToDashbord","TestCases.WordPressLoginToDashbord","WPlogin","WPlogin",""
+"passed","Mon Dec 04 20:17:11 BDT 2023","Mon Dec 04 20:17:49 BDT 2023","37543","Suite","Test","TestCases.AddWehbookValidation","TestCases.AddWehbookValidation","wehbookpublish","Scenario03:12. From Webhooks -Add new Wehbook form validation
+",""
+"passed","Mon Dec 04 20:15:42 BDT 2023","Mon Dec 04 20:16:35 BDT 2023","52595","Suite","Test","TestCases.AddQuizValidation","TestCases.AddQuizValidation","CreateQuiz","Scenario 310. From All Quiz - Add new Quiz form validation",""
+"broken","Sat Dec 02 16:06:13 BDT 2023","Sat Dec 02 16:06:13 BDT 2023","2","Default suite","Default test","TestCases.AnnouncementValidation","TestCases.AnnouncementValidation","quitBrowser","quitBrowser",""
+"broken","Mon Dec 04 17:11:35 BDT 2023","Mon Dec 04 17:11:35 BDT 2023","9","Suite","Test","TestCases.PluginActivation","TestCases.PluginActivation","setBrowser","setBrowser",""
+"passed","Mon Dec 04 20:14:52 BDT 2023","Mon Dec 04 20:15:42 BDT 2023","50007","Suite","Test","TestCases.CustomAddNewCourse","TestCases.CustomAddNewCourse","NewCourse","Scenario 03:
+Courses Menu Validation
+9. From All Courses - Add new Course form validaton",""
+"passed","Mon Dec 04 20:13:14 BDT 2023","Mon Dec 04 20:14:07 BDT 2023","53770","Suite","Test","TestCases.PluginActivation","TestCases.PluginActivation","InstallToActivate","Scenario 01:
+1. Log in to your WordPress site.
+2. Check whether the “Academy LMS” Plugin is Active or not.
+3. If Active, navigate to the Plugin. Otherwise, Install the Plugin and Activate it. 
+4. Validate whether the Academy LMS is visible or not on the Admin Dashboard menu.",""
+"broken","Mon Dec 04 03:55:08 BDT 2023","Mon Dec 04 03:55:08 BDT 2023","3","Default suite","Default test","TestCases.LMSToolActivation","TestCases.LMSToolActivation","quitBrowser","quitBrowser",""
+"passed","Mon Dec 04 20:14:08 BDT 2023","Mon Dec 04 20:14:52 BDT 2023","44188","Suite","Test","TestCases.LMSToolActivation","TestCases.LMSToolActivation","Addons","Scenario 02:
+Navigate to the Academy LMS menu -> Add ones Mode.
+5.From Add-ons All -> On the free tools(Quizes, Multi Instructors,Migration ToolWebhooks) click to active those tools.
+6.Validate Active tools lists
+7. Validate Deactivate tools list
+8. Navigate Active tools from Menu",""
+"passed","Mon Dec 04 20:16:35 BDT 2023","Mon Dec 04 20:17:11 BDT 2023","36612","Suite","Test","TestCases.AnnouncementValidation","TestCases.AnnouncementValidation","AddAnn","Scenario 0311. From Announcements - Add new Announcement form validation",""

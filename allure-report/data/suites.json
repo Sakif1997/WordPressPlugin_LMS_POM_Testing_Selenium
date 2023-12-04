@@ -1,0 +1,177 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Default suite",
+    "children" : [ {
+      "name" : "Default test",
+      "children" : [ {
+        "name" : "TestCases.WordPressLoginToDashbord",
+        "children" : [ {
+          "name" : "WPlogin",
+          "uid" : "f4e5ec5ce79deac5",
+          "parentUid" : "7a49fe95ffe3e7658ba30e02d9c8bfa3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1701169236964,
+            "stop" : 1701169258127,
+            "duration" : 21163
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7a49fe95ffe3e7658ba30e02d9c8bfa3"
+      }, {
+        "name" : "TestCases.AnnouncementValidation",
+        "children" : [ {
+          "name" : "quitBrowser",
+          "uid" : "8d203949420e8748",
+          "parentUid" : "74bb15741674dbfdfbf1e166eeee7c8a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1701511573708,
+            "stop" : 1701511573710,
+            "duration" : 2
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "74bb15741674dbfdfbf1e166eeee7c8a"
+      }, {
+        "name" : "TestCases.LMSToolActivation",
+        "children" : [ {
+          "name" : "quitBrowser",
+          "uid" : "d0b18873bd9c0e3d",
+          "parentUid" : "6bb0e6b77e456e517b29105fae51c476",
+          "status" : "broken",
+          "time" : {
+            "start" : 1701640508719,
+            "stop" : 1701640508722,
+            "duration" : 3
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6bb0e6b77e456e517b29105fae51c476"
+      } ],
+      "uid" : "848117670d75f6868e681771989ad50e"
+    } ],
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56"
+  }, {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "TestCases.PluginActivation",
+        "children" : [ {
+          "name" : "setBrowser",
+          "uid" : "4af433ab4afaaa2a",
+          "parentUid" : "838e9ea6c72a8863759cd5af95d12a71",
+          "status" : "broken",
+          "time" : {
+            "start" : 1701688295904,
+            "stop" : 1701688295913,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Scenario 01:\r\n1. Log in to your WordPress site.\r\n2. Check whether the “Academy LMS” Plugin is Active or not.\r\n3. If Active, navigate to the Plugin. Otherwise, Install the Plugin and Activate it. \r\n4. Validate whether the Academy LMS is visible or not on the Admin Dashboard menu.",
+          "uid" : "8c87ebd60f71d740",
+          "parentUid" : "838e9ea6c72a8863759cd5af95d12a71",
+          "status" : "passed",
+          "time" : {
+            "start" : 1701699194215,
+            "stop" : 1701699247985,
+            "duration" : 53770
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "838e9ea6c72a8863759cd5af95d12a71"
+      }, {
+        "name" : "TestCases.LMSToolActivation",
+        "children" : [ {
+          "name" : "Scenario 02:\r\nNavigate to the Academy LMS menu -> Add ones Mode.\r\n5.From Add-ons All -> On the free tools(Quizes, Multi Instructors,Migration ToolWebhooks) click to active those tools.\r\n6.Validate Active tools lists\r\n7. Validate Deactivate tools list\r\n8. Navigate Active tools from Menu",
+          "uid" : "668e0724e310358b",
+          "parentUid" : "df2468f9c8ba932e61bd415b2b06e544",
+          "status" : "passed",
+          "time" : {
+            "start" : 1701699248192,
+            "stop" : 1701699292380,
+            "duration" : 44188
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "df2468f9c8ba932e61bd415b2b06e544"
+      }, {
+        "name" : "TestCases.CustomAddNewCourse",
+        "children" : [ {
+          "name" : "Scenario 03:\r\nCourses Menu Validation\r\n9. From All Courses - Add new Course form validaton",
+          "uid" : "9b1486a9080afb37",
+          "parentUid" : "08e4f8246ac797b4b3bfaeb1d350b4a7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1701699292410,
+            "stop" : 1701699342417,
+            "duration" : 50007
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "08e4f8246ac797b4b3bfaeb1d350b4a7"
+      }, {
+        "name" : "TestCases.AddQuizValidation",
+        "children" : [ {
+          "name" : "Scenario 310. From All Quiz - Add new Quiz form validation",
+          "uid" : "c64c83c311b591e9",
+          "parentUid" : "7ea3032c6999323fb38fdce38f0d06bd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1701699342478,
+            "stop" : 1701699395073,
+            "duration" : 52595
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7ea3032c6999323fb38fdce38f0d06bd"
+      }, {
+        "name" : "TestCases.AnnouncementValidation",
+        "children" : [ {
+          "name" : "Scenario 0311. From Announcements - Add new Announcement form validation",
+          "uid" : "25d7b4c43d5f957d",
+          "parentUid" : "333168be6c9e17a88cbd9062add7ad0b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1701699395090,
+            "stop" : 1701699431702,
+            "duration" : 36612
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "333168be6c9e17a88cbd9062add7ad0b"
+      }, {
+        "name" : "TestCases.AddWehbookValidation",
+        "children" : [ {
+          "name" : "Scenario03:12. From Webhooks -Add new Wehbook form validation\r\n",
+          "uid" : "94203b7d836f51c1",
+          "parentUid" : "df7511d197bdc166d8351cd4d7a6995a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1701699431745,
+            "stop" : 1701699469288,
+            "duration" : 37543
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "df7511d197bdc166d8351cd4d7a6995a"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "b5eba8473f6cac91",
+  "name" : "InstallToActivate",
+  "fullName" : "TestCases.PluginActivation.InstallToActivate",
+  "historyId" : "7f9ae109fa5e3d26db0d8bbfed337478",
+  "time" : {
+    "start" : 1701173231228,
+    "stop" : 1701173276370,
+    "duration" : 45142
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701173215732,
+      "stop" : 1701173230991,
+      "duration" : 15259
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701173276525,
+      "stop" : 1701173277483,
+      "duration" : 958
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.PluginActivation"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.PluginActivation"
+  }, {
+    "name" : "testMethod",
+    "value" : "InstallToActivate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.PluginActivation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "13048@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5eba8473f6cac91.json",
+  "parameterValues" : [ ]
+}

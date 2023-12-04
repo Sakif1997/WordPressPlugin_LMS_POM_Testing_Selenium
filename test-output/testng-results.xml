@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="16" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T20:13:13 BDT" name="Suite" finished-at="2023-12-04T20:17:49 BDT" duration-ms="275365">
+    <groups>
+    </groups>
+    <test started-at="2023-12-04T20:13:13 BDT" name="Test" finished-at="2023-12-04T20:17:49 BDT" duration-ms="275365">
+      <class name="TestCases.AddWehbookValidation">
+        <test-method signature="wehbookpublish()[pri:0, instance:TestCases.AddWehbookValidation@72c8e7b]" started-at="2023-12-04T20:17:11 BDT" name="wehbookpublish" description="Scenario03:12. From Webhooks -Add new Wehbook form validation
+" finished-at="2023-12-04T20:17:49 BDT" duration-ms="37553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wehbookpublish -->
+      </class> <!-- TestCases.AddWehbookValidation -->
+      <class name="TestCases.CustomAddNewCourse">
+        <test-method signature="NewCourse()[pri:0, instance:TestCases.CustomAddNewCourse@55cb6996]" started-at="2023-12-04T20:14:52 BDT" name="NewCourse" description="Scenario 03:
+Courses Menu Validation
+9. From All Courses - Add new Course form validaton" finished-at="2023-12-04T20:15:42 BDT" duration-ms="50025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCourse -->
+      </class> <!-- TestCases.CustomAddNewCourse -->
+      <class name="TestCases.PluginActivation">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:TestCases.PluginActivation@6f204a1a]" started-at="2023-12-04T20:13:03 BDT" name="setBrowser" finished-at="2023-12-04T20:13:13 BDT" duration-ms="10443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="InstallToActivate()[pri:0, instance:TestCases.PluginActivation@6f204a1a]" started-at="2023-12-04T20:13:14 BDT" name="InstallToActivate" description="Scenario 01:
+1. Log in to your WordPress site.
+2. Check whether the “Academy LMS” Plugin is Active or not.
+3. If Active, navigate to the Plugin. Otherwise, Install the Plugin and Activate it. 
+4. Validate whether the Academy LMS is visible or not on the Admin Dashboard menu." finished-at="2023-12-04T20:14:07 BDT" duration-ms="53913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstallToActivate -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.PluginActivation@6f204a1a]" started-at="2023-12-04T20:17:49 BDT" name="quitBrowser" finished-at="2023-12-04T20:17:51 BDT" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestCases.PluginActivation -->
+      <class name="TestCases.LMSToolActivation">
+        <test-method signature="Addons()[pri:0, instance:TestCases.LMSToolActivation@4722ef0c]" started-at="2023-12-04T20:14:08 BDT" name="Addons" description="Scenario 02:
+Navigate to the Academy LMS menu -&gt; Add ones Mode.
+5.From Add-ons All -&gt; On the free tools(Quizes, Multi Instructors,Migration ToolWebhooks) click to active those tools.
+6.Validate Active tools lists
+7. Validate Deactivate tools list
+8. Navigate Active tools from Menu" finished-at="2023-12-04T20:14:52 BDT" duration-ms="44196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addons -->
+      </class> <!-- TestCases.LMSToolActivation -->
+      <class name="TestCases.AddQuizValidation">
+        <test-method signature="CreateQuiz()[pri:0, instance:TestCases.AddQuizValidation@480d3575]" started-at="2023-12-04T20:15:42 BDT" name="CreateQuiz" description="Scenario 310. From All Quiz - Add new Quiz form validation" finished-at="2023-12-04T20:16:35 BDT" duration-ms="52636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuiz -->
+      </class> <!-- TestCases.AddQuizValidation -->
+      <class name="TestCases.AnnouncementValidation">
+        <test-method signature="AddAnn()[pri:0, instance:TestCases.AnnouncementValidation@194fad1]" started-at="2023-12-04T20:16:35 BDT" name="AddAnn" description="Scenario 0311. From Announcements - Add new Announcement form validation" finished-at="2023-12-04T20:17:11 BDT" duration-ms="36620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAnn -->
+      </class> <!-- TestCases.AnnouncementValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

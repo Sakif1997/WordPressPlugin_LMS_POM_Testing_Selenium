@@ -1,0 +1,91 @@
+{
+  "uid" : "aedddc81845b24f2",
+  "name" : "WPlogin",
+  "fullName" : "TestCases.WordPressLoginToDashbord.WPlogin",
+  "historyId" : "525c393741e0db2c3aa5679e5e16b459",
+  "time" : {
+    "start" : 1701161265115,
+    "stop" : 1701161299955,
+    "duration" : 34840
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701161255912,
+      "stop" : 1701161264947,
+      "duration" : 9035
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701161300191,
+      "stop" : 1701161300633,
+      "duration" : 442
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.WordPressLoginToDashbord"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.WordPressLoginToDashbord"
+  }, {
+    "name" : "testMethod",
+    "value" : "WPlogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.WordPressLoginToDashbord"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "13948@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aedddc81845b24f2.json",
+  "parameterValues" : [ ]
+}

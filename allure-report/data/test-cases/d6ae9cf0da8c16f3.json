@@ -1,0 +1,113 @@
+{
+  "uid" : "d6ae9cf0da8c16f3",
+  "name" : "Scenario 03:\r\nCourses Menu Validation\r\n9. From All Courses - Add new Course form validaton",
+  "fullName" : "TestCases.CustomAddNewCourse.NewCourse",
+  "historyId" : "260154ff85a2a2542bac2805f5efabe6",
+  "time" : {
+    "start" : 1701698666307,
+    "stop" : 1701698716934,
+    "duration" : 50627
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701698557171,
+      "stop" : 1701698568680,
+      "duration" : 11509
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b88e89b4a61626ad",
+      "name" : "COurse Creation",
+      "source" : "b88e89b4a61626ad.png",
+      "type" : "image/png",
+      "size" : 64398
+    }, {
+      "uid" : "62c9df89b6ae6de9",
+      "name" : "COurse Creation",
+      "source" : "62c9df89b6ae6de9.png",
+      "type" : "image/png",
+      "size" : 77753
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701698757834,
+      "stop" : 1701698760085,
+      "duration" : 2251
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.CustomAddNewCourse"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.CustomAddNewCourse"
+  }, {
+    "name" : "testMethod",
+    "value" : "NewCourse"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.CustomAddNewCourse"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "14280@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6ae9cf0da8c16f3.json",
+  "parameterValues" : [ ]
+}

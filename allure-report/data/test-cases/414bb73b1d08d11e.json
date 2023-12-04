@@ -1,0 +1,113 @@
+{
+  "uid" : "414bb73b1d08d11e",
+  "name" : "Scenario 01:\r\n1. Log in to your WordPress site.\r\n2. Check whether the “Academy LMS” Plugin is Active or not.\r\n3. If Active, navigate to the Plugin. Otherwise, Install the Plugin and Activate it. \r\n4. Validate whether the Academy LMS is visible or not on the Admin Dashboard menu.",
+  "fullName" : "TestCases.PluginActivation.InstallToActivate",
+  "historyId" : "7f9ae109fa5e3d26db0d8bbfed337478",
+  "time" : {
+    "start" : 1701688449691,
+    "stop" : 1701688500336,
+    "duration" : 50645
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701688440318,
+      "stop" : 1701688449459,
+      "duration" : 9141
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2d6529410541f681",
+      "name" : "LMS Plugin Installation",
+      "source" : "2d6529410541f681.png",
+      "type" : "image/png",
+      "size" : 99709
+    }, {
+      "uid" : "8b96fab314f83322",
+      "name" : "Activation of plugin",
+      "source" : "8b96fab314f83322.png",
+      "type" : "image/png",
+      "size" : 95765
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701688517703,
+      "stop" : 1701688518513,
+      "duration" : 810
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.PluginActivation"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.PluginActivation"
+  }, {
+    "name" : "testMethod",
+    "value" : "InstallToActivate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.PluginActivation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "652@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "414bb73b1d08d11e.json",
+  "parameterValues" : [ ]
+}

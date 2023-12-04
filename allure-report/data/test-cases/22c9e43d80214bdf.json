@@ -1,0 +1,107 @@
+{
+  "uid" : "22c9e43d80214bdf",
+  "name" : "Scenario03:12. From Webhooks -Add new Wehbook form validation\r\n",
+  "fullName" : "TestCases.AddWehbookValidation.wehbookpublish",
+  "historyId" : "90fb87f86aed13e01d61ef21f0748868",
+  "time" : {
+    "start" : 1701687752800,
+    "stop" : 1701687779681,
+    "duration" : 26881
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701687746872,
+      "stop" : 1701687752645,
+      "duration" : 5773
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ddc8f8ef719154d2",
+      "name" : "ebook form",
+      "source" : "ddc8f8ef719154d2.png",
+      "type" : "image/png",
+      "size" : 69944
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701687779937,
+      "stop" : 1701687780887,
+      "duration" : 950
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.AddWehbookValidation"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.AddWehbookValidation"
+  }, {
+    "name" : "testMethod",
+    "value" : "wehbookpublish"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.AddWehbookValidation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "5216@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22c9e43d80214bdf.json",
+  "parameterValues" : [ ]
+}

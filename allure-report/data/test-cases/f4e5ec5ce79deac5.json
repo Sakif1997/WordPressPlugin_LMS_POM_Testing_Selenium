@@ -1,0 +1,101 @@
+{
+  "uid" : "f4e5ec5ce79deac5",
+  "name" : "WPlogin",
+  "fullName" : "TestCases.WordPressLoginToDashbord.WPlogin",
+  "historyId" : "525c393741e0db2c3aa5679e5e16b459",
+  "time" : {
+    "start" : 1701169236964,
+    "stop" : 1701169258127,
+    "duration" : 21163
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701169223494,
+      "stop" : 1701169236795,
+      "duration" : 13301
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701169258362,
+      "stop" : 1701169258852,
+      "duration" : 490
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.WordPressLoginToDashbord"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.WordPressLoginToDashbord"
+  }, {
+    "name" : "testMethod",
+    "value" : "WPlogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.WordPressLoginToDashbord"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "10772@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aedddc81845b24f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701161265115,
+        "stop" : 1701161299955,
+        "duration" : 34840
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4e5ec5ce79deac5.json",
+  "parameterValues" : [ ]
+}

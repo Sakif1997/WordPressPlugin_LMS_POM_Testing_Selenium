@@ -1,0 +1,119 @@
+{
+  "uid" : "e998b5bf8053b5fe",
+  "name" : "Scenario 310. From All Quiz - Add new Quiz form validation",
+  "fullName" : "TestCases.AddQuizValidation.CreateQuiz",
+  "historyId" : "4052a0e9d7f921272cece2303580a233",
+  "time" : {
+    "start" : 1701687440367,
+    "stop" : 1701687483095,
+    "duration" : 42728
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701687431793,
+      "stop" : 1701687439911,
+      "duration" : 8118
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "948ce500a5563ed9",
+      "name" : "Question Summary Page",
+      "source" : "948ce500a5563ed9.png",
+      "type" : "image/png",
+      "size" : 56974
+    }, {
+      "uid" : "523c2ad5e5089f27",
+      "name" : "Question Formation page",
+      "source" : "523c2ad5e5089f27.png",
+      "type" : "image/png",
+      "size" : 75452
+    }, {
+      "uid" : "de704346cf320c55",
+      "name" : "Quiz Added",
+      "source" : "de704346cf320c55.png",
+      "type" : "image/png",
+      "size" : 80972
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701687483309,
+      "stop" : 1701687484125,
+      "duration" : 816
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.AddQuizValidation"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.AddQuizValidation"
+  }, {
+    "name" : "testMethod",
+    "value" : "CreateQuiz"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.AddQuizValidation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "3380@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e998b5bf8053b5fe.json",
+  "parameterValues" : [ ]
+}

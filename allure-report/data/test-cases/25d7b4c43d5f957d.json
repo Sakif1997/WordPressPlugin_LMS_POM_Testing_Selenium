@@ -1,0 +1,546 @@
+{
+  "uid" : "25d7b4c43d5f957d",
+  "name" : "Scenario 0311. From Announcements - Add new Announcement form validation",
+  "fullName" : "TestCases.AnnouncementValidation.AddAnn",
+  "historyId" : "26bbc90b02b3b4c68611407bdceff655",
+  "time" : {
+    "start" : 1701699395090,
+    "stop" : 1701699431702,
+    "duration" : 36612
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1701699183516,
+      "stop" : 1701699193925,
+      "duration" : 10409
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b0d629166b431567",
+      "name" : "Announcement Formation",
+      "source" : "b0d629166b431567.png",
+      "type" : "image/png",
+      "size" : 54955
+    }, {
+      "uid" : "58b02bf0c0487e9a",
+      "name" : "Announcement created",
+      "source" : "58b02bf0c0487e9a.png",
+      "type" : "image/png",
+      "size" : 79391
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1701699469477,
+      "stop" : 1701699471396,
+      "duration" : 1919
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.AnnouncementValidation"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.AnnouncementValidation"
+  }, {
+    "name" : "testMethod",
+    "value" : "AddAnn"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.AnnouncementValidation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "5356@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "540ae536081875af",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [6407f770165d21a91beac9b9335aac70, get {url=http://localhost/wordpress-6.3.1/wordpress/wp-admin}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64582}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64582/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6407f770165d21a91beac9b9335aac70",
+      "time" : {
+        "start" : 1701699095598,
+        "stop" : 1701699095731,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "e8e7a208911e204e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='user_login']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [072a8b42aac0c0a38643ea7ad1603270, findElement {using=xpath, value=//input[@id='user_login']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63768}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63768/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 072a8b42aac0c0a38643ea7ad1603270",
+      "time" : {
+        "start" : 1701698750056,
+        "stop" : 1701698754476,
+        "duration" : 4420
+      }
+    }, {
+      "uid" : "d4d79d8cfc402dca",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='user_login']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [cee8be7c22c1a5be22a8167ea6891a6e, findElement {using=xpath, value=//input[@id='user_login']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62698}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62698/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cee8be7c22c1a5be22a8167ea6891a6e",
+      "time" : {
+        "start" : 1701697957409,
+        "stop" : 1701697960933,
+        "duration" : 3524
+      }
+    }, {
+      "uid" : "9ec54602c79ef06f",
+      "status" : "broken",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [745865fb408395c7a5a843d0e63c896c, get {url=http://localhost/wordpress-6.3.1/wordpress/wp-admin}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61440}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61440/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 745865fb408395c7a5a843d0e63c896c",
+      "time" : {
+        "start" : 1701696235521,
+        "stop" : 1701696235526,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "fae7ea8b9749a84",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='user_login']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [60c8fa3031fa3e8180fa68af88c78da0, findElement {using=xpath, value=//input[@id='user_login']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60527}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60527/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 60c8fa3031fa3e8180fa68af88c78da0",
+      "time" : {
+        "start" : 1701695705380,
+        "stop" : 1701695708618,
+        "duration" : 3238
+      }
+    }, {
+      "uid" : "9a641de586561944",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [0f46e62ca2ecfd0e27c3a1f9dea8f6c0, get {url=http://localhost/wordpress-6.3.1/wordpress/wp-admin}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60256}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60256/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0f46e62ca2ecfd0e27c3a1f9dea8f6c0",
+      "time" : {
+        "start" : 1701695534737,
+        "stop" : 1701695534776,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "2f04a37607eeb2c8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='user_login']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7c1097e8bdd36b141e94f15ed0967b17, findElement {using=xpath, value=//input[@id='user_login']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57617}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57617/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7c1097e8bdd36b141e94f15ed0967b17",
+      "time" : {
+        "start" : 1701688510832,
+        "stop" : 1701688514067,
+        "duration" : 3235
+      }
+    }, {
+      "uid" : "5eae8063579b9754",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [c7baef3a84ff0670ed0de0c5d452a3b1, maximizeCurrentWindow {}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57476}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57476/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c7baef3a84ff0670ed0de0c5d452a3b1",
+      "time" : {
+        "start" : 1701688296359,
+        "stop" : 1701688296362,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "ed5a67e769c04a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701687608859,
+        "stop" : 1701687640317,
+        "duration" : 31458
+      }
+    }, {
+      "uid" : "bcb072535dd4ff5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701520463887,
+        "stop" : 1701520498377,
+        "duration" : 34490
+      }
+    }, {
+      "uid" : "7f372bdf1d402d3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701515981268,
+        "stop" : 1701516012484,
+        "duration" : 31216
+      }
+    }, {
+      "uid" : "2ea4b5566ab000a2",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [ef19ad8595c1b64284bb511fb7d0c814, sendKeysToElement {id=E0892680426E1FF756AE9981E069C9A7_element_72, value=[Ljava.lang.CharSequence;@17f3eefb}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49229}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49229/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (ef19ad8595c1b64284bb511fb7d0c814)] -> xpath: //div[@class='is-root-container is-layout-flow wp-block-post-content block-editor-block-list__layout']]\nSession ID: ef19ad8595c1b64284bb511fb7d0c814",
+      "time" : {
+        "start" : 1701511774513,
+        "stop" : 1701511923803,
+        "duration" : 149290
+      }
+    }, {
+      "uid" : "9ed16b128d1d9f5c",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7ab3169f75f379c4e409fb0c0844239c, sendKeysToElement {id=28DFDC90017B594402112D9C78EEF964_element_62, value=[Ljava.lang.CharSequence;@7c0777b5}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65433}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65433/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (7ab3169f75f379c4e409fb0c0844239c)] -> xpath: //div[@class='is-root-container is-layout-flow wp-block-post-content block-editor-block-list__layout']]\nSession ID: 7ab3169f75f379c4e409fb0c0844239c",
+      "time" : {
+        "start" : 1701511431067,
+        "stop" : 1701511547740,
+        "duration" : 116673
+      }
+    }, {
+      "uid" : "2f90333cde7900ca",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//p[@id='block-f9aaf37a-a28a-4c61-b6f8-5f3e63580ff7'])[1]\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [63b72e6084eedca836e08f739b0800fd, findElement {using=xpath, value=(//p[@id='block-f9aaf37a-a28a-4c61-b6f8-5f3e63580ff7'])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54671}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54671/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 63b72e6084eedca836e08f739b0800fd",
+      "time" : {
+        "start" : 1701392954785,
+        "stop" : 1701392978812,
+        "duration" : 24027
+      }
+    }, {
+      "uid" : "1c193505196c5f15",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [984081b263176bc309ac549e906844b9, sendKeysToElement {id=561B8C2595075030DCC0981991693F2C_element_72, value=[Ljava.lang.CharSequence;@2bfb6b49}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54470}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54470/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (984081b263176bc309ac549e906844b9)] -> xpath: //div[@class='is-root-container is-layout-flow wp-block-post-content block-editor-block-list__layout']]\nSession ID: 984081b263176bc309ac549e906844b9",
+      "time" : {
+        "start" : 1701392778296,
+        "stop" : 1701392805526,
+        "duration" : 27230
+      }
+    }, {
+      "uid" : "481b776467c2641b",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [fc5688e7e62c06f42e9768e369b928a6, sendKeysToElement {id=70369344ADD16432ABAE29A6F734287B_element_70, value=[Ljava.lang.CharSequence;@788ddc1f}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54223}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54223/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (fc5688e7e62c06f42e9768e369b928a6)] -> xpath: //div[@class='is-root-container is-layout-flow wp-block-post-content block-editor-block-list__layout']]\nSession ID: fc5688e7e62c06f42e9768e369b928a6",
+      "time" : {
+        "start" : 1701392524942,
+        "stop" : 1701392549750,
+        "duration" : 24808
+      }
+    }, {
+      "uid" : "b8d85b6e461d5ced",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [973af0a45dc8d1684ef13670cca4ec2b, sendKeysToElement {id=F51B8C89A865F3BE51AFD141DA83F3E7_element_72, value=[Ljava.lang.CharSequence;@2dc3271b}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54080}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54080/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (973af0a45dc8d1684ef13670cca4ec2b)] -> xpath: //div[@class='is-root-container is-layout-flow wp-block-post-content block-editor-block-list__layout']]\nSession ID: 973af0a45dc8d1684ef13670cca4ec2b",
+      "time" : {
+        "start" : 1701392454305,
+        "stop" : 1701392474663,
+        "duration" : 20358
+      }
+    }, {
+      "uid" : "1a9605c4ab20b328",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression ///div[@class='is-root-container is-layout-flow wp-block-post-content block-editor-block-list__layout'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '///div[@class='is-root-container is-layout-flow wp-block-post-content block-editor-block-list__layout']' is not a valid XPath expression.\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [597e8335910d638c5a90cb93d61052d7, findElement {using=xpath, value=///div[@class='is-root-container is-layout-flow wp-block-post-content block-editor-block-list__layout']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53810}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53810/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 597e8335910d638c5a90cb93d61052d7",
+      "time" : {
+        "start" : 1701392174676,
+        "stop" : 1701392196368,
+        "duration" : 21692
+      }
+    }, {
+      "uid" : "5e8826bd59c912ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701391804349,
+        "stop" : 1701391833771,
+        "duration" : 29422
+      }
+    }, {
+      "uid" : "d0aba311de70fbe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701391720362,
+        "stop" : 1701391742665,
+        "duration" : 22303
+      }
+    }, {
+      "uid" : "ff456dd18c978105",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701391464999,
+        "stop" : 1701391493123,
+        "duration" : 28124
+      }
+    }, {
+      "uid" : "3aae71df12813f10",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(@aria-label,'Add default block')]\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [5abb641f1ce626d4af1d23df2048925b, findElement {using=xpath, value=//p[contains(@aria-label,'Add default block')]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52930}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52930/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5abb641f1ce626d4af1d23df2048925b",
+      "time" : {
+        "start" : 1701391354903,
+        "stop" : 1701391375282,
+        "duration" : 20379
+      }
+    }, {
+      "uid" : "4389a5ab97293f0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701391133998,
+        "stop" : 1701391158300,
+        "duration" : 24302
+      }
+    }, {
+      "uid" : "d07b512c10df9af6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701390900698,
+        "stop" : 1701390925127,
+        "duration" : 24429
+      }
+    }, {
+      "uid" : "1f2ab8017d7644e7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(@aria-label,'Add default block')]\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [07e83e22b5c633f139857d7363557f13, findElement {using=xpath, value=//p[contains(@aria-label,'Add default block')]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52303}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52303/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 07e83e22b5c633f139857d7363557f13",
+      "time" : {
+        "start" : 1701390764638,
+        "stop" : 1701390788531,
+        "duration" : 23893
+      }
+    }, {
+      "uid" : "f006bd67e6ca34",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(@aria-label,'Add default block')]\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [2bab1569aa2b43fe6a4d93db02e40afd, findElement {using=xpath, value=//p[contains(@aria-label,'Add default block')]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51025}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51025/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2bab1569aa2b43fe6a4d93db02e40afd",
+      "time" : {
+        "start" : 1701388508371,
+        "stop" : 1701388531661,
+        "duration" : 23290
+      }
+    }, {
+      "uid" : "def9bb3936bfd7d2",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//p[@id='block-1f3c5742-2e0d-40cf-8971-365b40fcd276'])[1]\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [2bd7a7e72589e298e689fbad7794a9f2, findElement {using=xpath, value=(//p[@id='block-1f3c5742-2e0d-40cf-8971-365b40fcd276'])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50732}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50732/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2bd7a7e72589e298e689fbad7794a9f2",
+      "time" : {
+        "start" : 1701388196365,
+        "stop" : 1701388217318,
+        "duration" : 20953
+      }
+    }, {
+      "uid" : "a50fa168b006103d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701387958688,
+        "stop" : 1701387982774,
+        "duration" : 24086
+      }
+    }, {
+      "uid" : "974cc7a0aa3c4747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701387880348,
+        "stop" : 1701387903607,
+        "duration" : 23259
+      }
+    }, {
+      "uid" : "60153c811e2652db",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [0d8dce5114d4a2c470f16c5c640f780d, sendKeysToElement {id=5B332D94BAA59EE8FF70B2B48AF332F8_element_40, value=[Ljava.lang.CharSequence;@6f911326}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65376}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65376/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (0d8dce5114d4a2c470f16c5c640f780d)] -> xpath: //span[normalize-space()='Add Announcement']]\nSession ID: 0d8dce5114d4a2c470f16c5c640f780d",
+      "time" : {
+        "start" : 1701386454262,
+        "stop" : 1701386478931,
+        "duration" : 24669
+      }
+    }, {
+      "uid" : "7b42e3ed41420dfe",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [e850f2c2b8e89f29c428268ea0384a18, sendKeysToElement {id=BD93861D046BAC9CDD82197500AAFC66_element_33, value=[Ljava.lang.CharSequence;@56637cff}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65202}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65202/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (e850f2c2b8e89f29c428268ea0384a18)] -> xpath: //span[normalize-space()='Add Announcement']]\nSession ID: e850f2c2b8e89f29c428268ea0384a18",
+      "time" : {
+        "start" : 1701386323685,
+        "stop" : 1701386344328,
+        "duration" : 20643
+      }
+    }, {
+      "uid" : "1c354644c71b8d01",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [8c931364e466039c346580f2f693599a, sendKeysToElement {id=3210C4842FCABC26FAF73AEF017E2AB0_element_41, value=[Ljava.lang.CharSequence;@5ea4300e}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64938}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64938/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (8c931364e466039c346580f2f693599a)] -> xpath: //span[normalize-space()='Add Announcement']]\nSession ID: 8c931364e466039c346580f2f693599a",
+      "time" : {
+        "start" : 1701386084644,
+        "stop" : 1701386109056,
+        "duration" : 24412
+      }
+    }, {
+      "uid" : "c605120c8346ae32",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [23c0d2b012aac3a53c0f8fff9d74ce00, sendKeysToElement {id=6453FDA337E2F5BC76A7AD66C925E6C7_element_33, value=[Ljava.lang.CharSequence;@44af588b}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64300}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64300/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (23c0d2b012aac3a53c0f8fff9d74ce00)] -> xpath: //span[normalize-space()='Add Announcement']]\nSession ID: 23c0d2b012aac3a53c0f8fff9d74ce00",
+      "time" : {
+        "start" : 1701385822371,
+        "stop" : 1701385850158,
+        "duration" : 27787
+      }
+    }, {
+      "uid" : "1e5328be6e312066",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [448ac35f21bc79645adda8f1b7854353, sendKeysToElement {id=522DF838A3B4D12C091764E318B97B52_element_40, value=[Ljava.lang.CharSequence;@ff23ae7}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56244}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56244/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (448ac35f21bc79645adda8f1b7854353)] -> xpath: //span[normalize-space()='Add Announcement']]\nSession ID: 448ac35f21bc79645adda8f1b7854353",
+      "time" : {
+        "start" : 1701372429231,
+        "stop" : 1701372447333,
+        "duration" : 18102
+      }
+    }, {
+      "uid" : "1f1fc9ec3b411fc8",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [bec64f2e63e393177b9718d70c730559, findElement {using=xpath, value=//input[@id='user_login']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56156}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56156/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: bec64f2e63e393177b9718d70c730559",
+      "time" : {
+        "start" : 1701372328355,
+        "stop" : 1701372330769,
+        "duration" : 2414
+      }
+    }, {
+      "uid" : "f955480b69c116ab",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [e0c3eca2a6041c7d02b7084a666e4529, sendKeysToElement {id=339C46C9020AD73CBAD18D698AE0C408_element_31, value=[Ljava.lang.CharSequence;@76ad6715}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55979}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (e0c3eca2a6041c7d02b7084a666e4529)] -> xpath: //span[normalize-space()='Add Announcement']]\nSession ID: e0c3eca2a6041c7d02b7084a666e4529",
+      "time" : {
+        "start" : 1701372149071,
+        "stop" : 1701372167749,
+        "duration" : 18678
+      }
+    }, {
+      "uid" : "6333bd188e581cb0",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [e4fe42f94d323cb6f387726176bfb8c7, sendKeysToElement {id=D37CDFFD87CD0E29EEFCA2E2AA14139B_element_32, value=[Ljava.lang.CharSequence;@ff23ae7}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55838}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55838/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (e4fe42f94d323cb6f387726176bfb8c7)] -> xpath: //span[normalize-space()='Add Announcement']]\nSession ID: e4fe42f94d323cb6f387726176bfb8c7",
+      "time" : {
+        "start" : 1701372015632,
+        "stop" : 1701372034808,
+        "duration" : 19176
+      }
+    }, {
+      "uid" : "fb61f765dbda7727",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [76710d1ae57fd450d7e845bf614948dc, sendKeysToElement {id=481A425FFCAAF298EA294922076B9E18_element_33, value=[Ljava.lang.CharSequence;@575e572f}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55692}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55692/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (76710d1ae57fd450d7e845bf614948dc)] -> xpath: //span[normalize-space()='Add Announcement']]\nSession ID: 76710d1ae57fd450d7e845bf614948dc",
+      "time" : {
+        "start" : 1701371888748,
+        "stop" : 1701371907770,
+        "duration" : 19022
+      }
+    }, {
+      "uid" : "f08a6ed0aa96a822",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='academy-react-select__multi-value__label' and text()='English'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1701363280354,
+        "stop" : 1701363323730,
+        "duration" : 43376
+      }
+    }, {
+      "uid" : "fd381f924aa6260d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='academy-react-select__multi-value__label' and text()='English']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [b0db1d7c9bf117c60b1045b920c2642e, findElement {using=xpath, value=//div[@class='academy-react-select__multi-value__label' and text()='English']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64613}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64613/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b0db1d7c9bf117c60b1045b920c2642e",
+      "time" : {
+        "start" : 1701360292213,
+        "stop" : 1701360314657,
+        "duration" : 22444
+      }
+    }, {
+      "uid" : "40d6299c99a04c62",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='academy-react-select__multi-value__label css-9jq23d']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7f91138cf4b3df21dda71de636e3adad, findElement {using=xpath, value=//div[@class='academy-react-select__multi-value__label css-9jq23d']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54235}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54235/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7f91138cf4b3df21dda71de636e3adad",
+      "time" : {
+        "start" : 1701336251676,
+        "stop" : 1701336267375,
+        "duration" : 15699
+      }
+    }, {
+      "uid" : "e86e6b58b3e333e8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='academy-react-select__multi-value__label css-9jq23d']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7449ab0c246dc32fa763293368415a19, findElement {using=xpath, value=//div[@class='academy-react-select__multi-value__label css-9jq23d']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54115}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54115/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7449ab0c246dc32fa763293368415a19",
+      "time" : {
+        "start" : 1701336215401,
+        "stop" : 1701336234467,
+        "duration" : 19066
+      }
+    }, {
+      "uid" : "dd12bf888fcf048f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'dropdown-option') and text()='English']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [d7afb1133175e44903e8d6fff4a82944, findElement {using=xpath, value=//div[contains(@class, 'dropdown-option') and text()='English']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52664}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52664/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d7afb1133175e44903e8d6fff4a82944",
+      "time" : {
+        "start" : 1701256366614,
+        "stop" : 1701256382731,
+        "duration" : 16117
+      }
+    }, {
+      "uid" : "50d4573ea5083a18",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: MicrosoftEdge=119.0.2151.93)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [8731852053eeb5b84a1f3f588750c29e, clickElement {id=4B0D140612374065F2BD538BB302AC94_element_29}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52559}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52559/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (8731852053eeb5b84a1f3f588750c29e)] -> xpath: //a[normalize-space()='Announcements']]\nSession ID: 8731852053eeb5b84a1f3f588750c29e",
+      "time" : {
+        "start" : 1701256328161,
+        "stop" : 1701256345818,
+        "duration" : 17657
+      }
+    }, {
+      "uid" : "8f393bea757052f7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//div[text()='English']\"}\n  (Session info: MicrosoftEdge=119.0.2151.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [72ee59ddde1dbd7c5dd14017b50be3f3, findChildElement {id=5B5F3B78FBA01E61BF3C7832D22A8D82_element_52, using=xpath, value=.//div[text()='English']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57004}, msedge: {msedgedriverVersion: 119.0.2151.93 (423ba9baf131..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57004/devtoo..., se:cdpVersion: 119.0.2151.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 72ee59ddde1dbd7c5dd14017b50be3f3",
+      "time" : {
+        "start" : 1701249463582,
+        "stop" : 1701249488867,
+        "duration" : 25285
+      }
+    }, {
+      "uid" : "4ce661151828c4c6",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"option\" is null",
+      "time" : {
+        "start" : 1701245783388,
+        "stop" : 1701245818254,
+        "duration" : 34866
+      }
+    }, {
+      "uid" : "8e07c6476184ae31",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"div\"\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1701245075698,
+        "stop" : 1701245095357,
+        "duration" : 19659
+      }
+    }, {
+      "uid" : "4c9c6b2b18fd352f",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"div\"\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1701245008078,
+        "stop" : 1701245029779,
+        "duration" : 21701
+      }
+    }, {
+      "uid" : "6e958684ac649f76",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"div\"\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1701215710283,
+        "stop" : 1701215731165,
+        "duration" : 20882
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25d7b4c43d5f957d.json",
+  "parameterValues" : [ ]
+}
