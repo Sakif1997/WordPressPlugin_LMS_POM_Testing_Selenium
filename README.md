@@ -397,7 +397,7 @@ public class PluginActivation extends BrowserSetup{
 }
 ```
 
-Test Run Result:  
+Test Run Result:    
 ![s1](https://github.com/Sakif1997/WordPressPlugin_LMS_POM_Testing_Selenium/assets/45315685/ade68ca7-d929-4017-8189-dbb80ed44506)
 
 
@@ -479,7 +479,7 @@ public class LMSToolActivation extends BrowserSetup{
 	}
 }
 ```
-Test Run Result:  
+Test Run Result:    
 ![s2](https://github.com/Sakif1997/WordPressPlugin_LMS_POM_Testing_Selenium/assets/45315685/d9384227-09a4-4c82-856e-0e8a5a57f8f6)
 
 ### Targeted Scenario:  Scenario 03:   
@@ -576,7 +576,7 @@ public class CustomAddNewCourse extends BrowserSetup{
 	}
 }
 ```
-Test Run Result:
+Test Run Result:  
 ![s3Addcourse](https://github.com/Sakif1997/WordPressPlugin_LMS_POM_Testing_Selenium/assets/45315685/0f5bfe00-1492-4fe8-bd53-2fe44502fdae)
 
 #### Replicate Scenario 03: 10. From All Quiz - Add new Quiz form validation   
@@ -702,7 +702,7 @@ public class AddQuizValidation extends BrowserSetup{
 	}
 }
 ```
-Test Run Result:
+Test Run Result:  
 ![q](https://github.com/Sakif1997/WordPressPlugin_LMS_POM_Testing_Selenium/assets/45315685/622d120d-db80-4062-964d-aeb2d9ac3a7d)
 
 #### Replicate Scenario 03: 11. From Announcements - Add new Announcement form validation    
@@ -793,7 +793,7 @@ public class AnnouncementValidation extends BrowserSetup{
 	}
 }
 ```
-Test Run Result:  
+Test Run Result:     
 ![s4Announcement](https://github.com/Sakif1997/WordPressPlugin_LMS_POM_Testing_Selenium/assets/45315685/44a3b1e1-60e9-4ed8-a585-e1778d300f5a)
 
 #### Replicate Scenario 03:   12. From Webhooks -Add new Wehbook form validation 
@@ -884,7 +884,7 @@ public class AddWehbookValidation extends BrowserSetup{
 	}
 }
 ```
-Test Run Result:
+Test Run Result:  
 ![Wehbook](https://github.com/Sakif1997/WordPressPlugin_LMS_POM_Testing_Selenium/assets/45315685/8d3da97d-9f5a-4b4f-83aa-dcf3e15f8d24)
 
 
